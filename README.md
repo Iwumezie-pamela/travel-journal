@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Live site: travel-journal-q5bsmlpx9-iwumeziep-gmailcom.vercel.app
+Live site:(https://vercel.com/iwumeziep-gmailcom/travel-journal)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
