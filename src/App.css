@@ -1,0 +1,151 @@
+/* css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+.nav {
+  background-color: #f55a5a;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.nav-img {
+  max-width: 100%;
+  margin-right: 7px;
+}
+
+.nav-title {
+  color: #ffffff;
+  font-size: 0.88rem;
+  letter-spacing: -0.075em;
+  font-weight: 500;
+}
+
+.travel--card {
+ margin: 36px 40px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.travel-img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.travel-country {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.location-img {
+  width: 9px;
+  height: 10px;
+  display: inline-block;
+}
+
+.country-name {
+  font-size: 10.24px;
+  margin-right: 12px;
+  letter-spacing: 0.17em;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.country-link {
+  font-size: 10.24px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.country-link a {
+  color: #918e9b;
+  border-bottom: 1px solid #918e9b;
+  text-decoration: none;
+}
+
+.travel-title {
+  margin-top: 4px;
+  font-size: 25px;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+.travel-date {
+  margin: 15px 0 9px;
+  font-size: 11px;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.travel-subtext {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 15px;
+  max-width: 326px;
+}
+
+@media (max-width: 600px) {
+  .travel-country {
+    margin-left: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+
+  .location-img {
+    width: 7px;
+    height: 9px;
+    display: inline-block;
+  }
+
+  .country-name {
+    font-size: 9px;
+    margin-right: 8px;
+    letter-spacing: 0.1em;
+    display: inline-block;
+  }
+
+  .country-link {
+    font-size: 9px;
+  }
+
+  .travel-title {
+    margin-top: 0;
+    font-size: 20px;
+  }
+
+  .travel-date {
+    margin: 8px 0 5px;
+    font-size: 10px;
+  }
+
+  .travel-subtext {
+    font-size: 10px;
+    line-height: 12px;
+    white-space: normal;
+    max-width: 300px ;
+  }
+
+  .travel--card {
+      margin: 0;
+      padding: 30px 0;
+      display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+}
+
